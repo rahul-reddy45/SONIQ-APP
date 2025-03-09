@@ -5,6 +5,7 @@ export const initializeSocket = (server) => {
 	const io = new Server(server, {
 		cors: {
 			origin: "https://soniq-app-oozn.onrender.com",
+			methods: ["GET", "POST"],
 			credentials: true,
 		},
 	});
