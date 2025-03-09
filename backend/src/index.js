@@ -29,7 +29,7 @@ initializeSocket(httpServer);
 
 app.use(
 	cors({
-		origin: "http://localhost:3000",
+		origin: "https://soniq-app-oozn.onrender.com",
 		credentials: true,
 	})
 );
