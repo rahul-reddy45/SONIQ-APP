@@ -4,7 +4,7 @@ import { Message } from "../models/message.model.js";
 export const initializeSocket = (server) => {
     const io = new Server(server, {
         cors: {
-            origin: "http://localhost:3000", // Update this to match your frontend URL
+            origin: "https://soniq-appp.onrender.com", // Update this to match your frontend URL
             methods: ["GET", "POST"],
             credentials: true,
         },
