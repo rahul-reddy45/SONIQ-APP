@@ -1,19 +1,5 @@
 import { Server } from "socket.io";
 import { Message } from "../models/message.model.js";
-import { io } from "socket.io-client";
-
-const socket = io("https://soniq-app-oozn.onrender.com", {
-  transports: ["websocket", "polling"],
-  withCredentials: true,
-});
-
-socket.on("connect", () => {
-  console.log("Connected to the server");
-});
-
-socket.on("connect_error", (error) => {
-  console.error("Connection error:", error);
-});
 
 export const initializeSocket = (server) => {
 	const io = new Server(server, {
