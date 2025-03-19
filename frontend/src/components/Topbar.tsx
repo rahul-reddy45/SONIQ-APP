@@ -17,7 +17,7 @@ const Topbar = () => {
     '
 		>
 			<div className='flex gap-2 items-center'>
-				<img src='https://pbs.twimg.com/profile_images/1644767120302149632/Cw8Y1_C9_400x400.jpg' className='size-8' alt='Profile icon' />
+				<img src='https://i.pinimg.com/736x/98/09/90/980990e79f336bbf2230e194487f5286.jpg' className='size-8' alt='Profile icon' />
 				ꜱᴏɴɪQ
 			</div>
 			<div className='flex items-center gap-4'>
